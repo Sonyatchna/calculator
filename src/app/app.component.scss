@@ -1,0 +1,49 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: seagreen 1px solid;
+  width: 35%;
+  margin: 200px auto;
+
+  .header {
+    font-size: 36px;
+    font-weight: bold;
+    color: seagreen;
+    margin: 20px 0;
+  }
+
+  .inputs {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    margin-bottom: 20px;
+
+    input {
+      outline: none;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+
+    button {
+      height: 50px;
+      width: 70px;
+      background: seagreen;
+      cursor: pointer;
+      outline: none;
+      color: white;
+    }
+  }
+
+  .result {
+    font-size: 26px;
+    font-weight: bold;
+    color: seagreen;
+    margin: 10px;
+    visibility: hidden;
+  }
+}
